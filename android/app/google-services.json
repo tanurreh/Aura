@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "256896604963",
+    "project_id": "aura-smart-app",
+    "storage_bucket": "aura-smart-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256896604963:android:6924c103f306213b270a96",
+        "android_client_info": {
+          "package_name": "com.aura.app.aura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256896604963-p8shq6n6ia0n267ror3vduv2rls42ajf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDc_4gpzCmheO580Ns1IcKVyIeK4-qNZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256896604963-p8shq6n6ia0n267ror3vduv2rls42ajf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
