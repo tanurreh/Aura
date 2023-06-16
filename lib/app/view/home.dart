@@ -116,7 +116,7 @@ class _HomeState extends State<Home> {
                     MaterialButton(
                       height: 30.h,
                       shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)),
+                          borderRadius: BorderRadius.circular(10.r)),
                       color: _hc.selectedTime == Time.Year
                           ? CustomColors.KPrimaryColor
                           : null,
@@ -227,15 +227,15 @@ class _HomeState extends State<Home> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               DisplayContainer(
-                title: 'Voltage',
-                titleImage: "assets/volt.png",
-                unit: 'Volts',
+                title: 'HDPE',
+                titleImage: "assets/hdpe.png",
+                unit: 'Kg',
                 value: '200',
               ),
               DisplayContainer(
-                title: 'Current',
-                titleImage: 'assets/current.png',
-                unit: 'Amp',
+                title: 'PET',
+                titleImage: 'assets/pet.png',
+                unit: 'Kg',
                 value: '10',
               ),
             ],
@@ -247,15 +247,15 @@ class _HomeState extends State<Home> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               DisplayContainer(
-                title: 'Temperature',
-                titleImage: "assets/Temperature.png",
-                unit: 'F',
+                title: 'PP',
+                titleImage: "assets/pp.png",
+                unit: 'Kg',
                 value: '10',
               ),
               DisplayContainer(
-                title: 'Humidity',
-                titleImage: 'assets/humidity.png',
-                unit: '%',
+                title: 'LDPE',
+                titleImage: 'assets/ldpe.png',
+                unit: 'Kg',
                 value: '20',
               ),
             ],
@@ -591,11 +591,12 @@ class DisplayContainer extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset(
-                  titleImage, // "assets/volt.png",
-                  width: 20.w,
-                  height: 20.h,
-                ),
+                // Image.asset(
+                //   titleImage, // "assets/volt.png",
+                //   width: 20.w,
+                //   height: 20.h,
+                //   color: CustomColors.KPrimaryColor,
+                // ),
                 Text(title, //"Voltage",
                     style: TextStyle(color: Colors.black, fontSize: 12.sp))
               ],
